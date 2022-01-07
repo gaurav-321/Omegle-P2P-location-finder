@@ -22,7 +22,9 @@ python3 main.py
 ## Compiled Release
 
 It has been compiled using pyinstaller and in order to run .exe make sure .mmdb file is in same location.
-You can download release from below
+You can download release from below:-
+
+https://github.com/gaurav-321/p2p_ip_finder/releases/tag/final
 
 
 ### This is a contributions for open source projects, if you are utilizing this project please give credit to my github Ordinary Pythoneer
