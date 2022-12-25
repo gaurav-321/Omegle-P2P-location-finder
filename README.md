@@ -5,13 +5,15 @@ A simple python project which uses tshark to find packets going to remote ip and
 
 ---
 
-## How to setup
-
-Simply open up your terminal and type
-
-```
-pip3 install -r requirements.txt
-```
+## Requirements
+- Tshark: You need to have tshark installed on your system and the file path should be provided as input to the program. If no file path is provided, the program will assume that tshark is installed in the default location (C:\Program Files\Wireshark\tshark.exe).
+- GeoIP database: You need to have the GeoLite2-City database in the same directory as the program.
+- Python packages: You need to have the geoip2 and subprocess packages installed.
+## Usage
+- Run the program.
+- Select the device on which you want to monitor the traffic.
+- The program will start monitoring the UDP traffic and will print the country and city names for the IP addresses involved in the traffic.
+- To stop the program, press CTRL+C.
 
 ## To Run the project
 
